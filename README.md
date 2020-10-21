@@ -32,11 +32,40 @@ JAVA simple / primitive data types
 
 	boolean - 	true false
 	
-	char  	- 	character
-	double	-	Double precision floating point
-	float	-	Single precision floating point
 	
-	byte	- 	8bit integer	- 8
-	short	-	Short integer	- 16bit
-	int 	-	Integer			- 32bit	(2147 Milions +- from negatie to positive)
-	long 	-	Ilong integer	- 64bit
+	(float point) float		-	32 bit Single precision floating point
+	(float point) double	-	64 bit Double precision floating point (most used)
+	
+	
+	(integer) char  	- 	character (but also belongs in (integer) family 16 bit unsigned)
+	
+	(integer) byte	- 	8bit integer	- 8
+	(integer) short	-	Short integer	- 16bit
+	(integer) int 	-	Integer			- 32bit	(2147 Milions +- from negatie to positive)
+	(integer) long 	-	Ilong integer	- 64bit
+	
+	
+	
+CHAR
+
+	it is initialized by ''
+	it can be incremented
+	
+BOOLEAN
+
+	if outputed in println will convert to true or false string
+	+ is more important then < > so use it like println( "so the result of 10 < 2 is " + (10 < 2))
+    
+LITERALS
+    Now that we have explained above we can say that java literals are values that are human readable and 
+    are assigned to java primitives. 
+    For example: 
+        45      -   (integer literal), 
+        77.554  -   (double literal) 
+        'a'     -   character literal 
+        10.6F   -   float literal
+        10.6L  -   Long literal
+    One of the literals is string literal, a combination of characters
+    
+    
+    
