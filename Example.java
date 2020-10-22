@@ -14,9 +14,9 @@ class Example {
 		
 		// double is the most used value for floatin point, java math sqrt returns double
 		
-		double x,y,z;
+		double x,y = 5,z;
 		x = 4;
-		y = 5;
+		//y = 5;
 		
 		z = Math.sqrt(x*x + y*y);//square root returns double
 		
@@ -44,5 +44,46 @@ class Example {
 		// a will be diplayed as true - meaning conversion to string is done
 		if(a){System.out.println("A is " + a);} 
 		if(b){System.out.println("B is " + b);}
+		
+		// String literal
+		String str = "Hello \nMrFib \ta \tb \tc"; // \n will push output to new line
+		System.out.println("STR IS: " + str);
+		
+		// Scope examples
+		
+		int tstX = 10;
+		
+		if(tstX == 10){
+			int tstY = 20;
+			System.out.println("tstY is " + tstY + "  tstX is " + tstX);
+		}
+		// tstY is not visible in here
+		// tstX is visible
+		
+		// Arithmetic operator
+		int arXYI = 6 / 5;
+		System.out.println("6 / 5 is  " + arXYI);
+		
+		int arXYM = 6 % 5;
+		System.out.println("6 % 5 is  " + arXYM);
+		
+		double arXYD = 7.0 / 5.0;
+		System.out.println("7.0 / 5.0 is  " + arXYD);		
+		
+		double arXYDM = 7.0 % 5.0;
+		System.out.println("7.0 % 5.0 is  " + arXYDM);
+		
+		// moduo returns integer value and not double
+		
+		
+		//logical operators short circuit ecxample
+		
+		int tmX = 10;
+		int tmY = 0;
+		
+		if(tmX != 10 && (tmX / tmY) == 0){
+			System.out.println("We preventd devision by zero by using shor tircuit &&");
+		}
+		
 	}
 }

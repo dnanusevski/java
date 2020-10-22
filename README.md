@@ -67,5 +67,43 @@ LITERALS
         10.6L  -   Long literal
     One of the literals is string literal, a combination of characters
     
+STRING LITERALS
+
+    An example of string literal is value enclosed in ""
+    
+Variables
+   
+    Can be initialized with CONSTANT like type var = value (where value is a constant)
+    Can bi DINAMICALY INITIALIZED - type var = value1 * value2 (result of 2 constants );
+    
+Scopes
+    In java every curly bracked starts the block of code. Vars inside are not visible to the outside world
+    But vars from outside can be
+    
+Operators
+    We have 4 basic operators in JAVA - artihmetic. bitwise, relational and logical
+    Arithmetic: 
+        + - * / % ++ -- (all numeric and char :D )
+       
+       !Moduo % is integer value
+        x++ is the same as x = x + 1;
+    
+        x = 10
+        y = ++x now y is 11
+        y = x++ now y is 10 
+        in both cases x will be 11 at the end
+    
+    Relational and logical
+        == != > < => =<
+        & | ^ || && !
+        ^ (if diferent then true)
+        || && - short circuit logical operators (always use these since if first satisfies )
+        
+    Assigment operator is " = " it pushes right value to left like x = y = z = 100 all are 100 now
+        What is interesting here, if values are comaptible 
+        type conversion will occure int will become float like in hte following exaple
+        if neccecery ofcourse like int i; double y; i =10 y = i;
+    Short hand assigment x += 10 it is like x = x + 10
     
     
+   
